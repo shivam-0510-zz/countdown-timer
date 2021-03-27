@@ -24,7 +24,7 @@ function countdown()
 }
 function formatTime(times)
 {
-    return times < 10 ? (`0${times}`):time;
+    return times < 10 ? (`0${times}`):times;
 }
 countdown();
 setInterval(countdown,1000);
